@@ -1,4 +1,4 @@
-# aracomics
+# arakomix
 
 ## Project setup
 ```

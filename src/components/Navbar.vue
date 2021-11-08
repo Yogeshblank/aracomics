@@ -24,7 +24,7 @@ export default Vue.extend({
     data() {
     return {
       drawer: null,
-      snack : null,
+      snack : false,
       the:"",
     };
   },

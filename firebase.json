@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "site": "arakomix",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "store.Rules",
+    "indexes": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
